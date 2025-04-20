@@ -24,6 +24,10 @@ const subMessages = [
 ];
 
 const Index = () => {
+  const handleLearnMore = () => {
+    window.location.href = 'mailto:hello@rebundle.ai';
+  };
+
   return (
     <div className="min-h-screen relative overflow-hidden bg-gradient-to-br from-[#F97316] to-[#33C3F0]">
       <div className="absolute inset-0">
@@ -53,7 +57,7 @@ const Index = () => {
             <Button 
               variant="outline"
               className="text-lg px-8 py-6 bg-white/10 hover:bg-white/20 text-white border-white/30"
-              onClick={() => window.location.href = 'mailto:hello@rebundle.ai'}
+              onClick={handleLearnMore}
             >
               Learn More
             </Button>
