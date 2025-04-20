@@ -42,7 +42,7 @@ const Index = () => {
         {/* Header */}
         <header className="pt-8 pb-12">
           <img 
-            src="/lovable-uploads/b87636ec-a44d-474e-8a0e-886ee68d15da.png" 
+            src="/lovable-uploads/993947f8-1a14-471e-94cf-72c20f6a48ed.png" 
             alt="Rebundle Logo" 
             className="h-12 md:h-16"
           />
